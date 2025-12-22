@@ -1,0 +1,57 @@
+/* 3 d
+body{
+    perspective: 600px;
+}
+/* whidth and height img */
+/* img{
+    width: 350px;
+    height: 350px;
+}  */
+/* hover img */
+/* img:hover{ */
+    /* transform: translate(200px,50px); */
+    /* transition: all 2s ease-in-out; */
+    /* transform: translateX(200px); */
+    /* transform: scaleX(1.5);   */
+    /* transform: rotate(20deg); */
+    /* transform: skew(70deg);   */
+  /* transition: name duraction time function delay ; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  /* animation: sayed 2s linear 2s alternate  4; */
+/* } */
+/* active animetion */
+ /* @keyframes sayed {
+    0%{
+        transform: translate(0px,0px)
+        
+    }25%{
+        transform: translate(200px)
+        
+    }50%{
+        transform: translate(200px,200px)
+        
+    }75%{
+        
+        transform: translate(0px,200px)
+    }
+    100%{
+        transform: translate(0px,0px)
+
+    }       
+ } */
+  /*  */
+/* section */
+.touch{
+    background-image: url(../img/Path\ 62.png) ,  url(../img/doctor.jpg);
+    padding-top:70px ;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+/* media query */
+@media (max-width:991px) {
+    .touch{
+        height: fit-content;
+    padding-bottom: 50px;
+    }
+}
